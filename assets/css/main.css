@@ -96,7 +96,7 @@ svg,img { max-width: 100%; height: auto; }
 .ads-bout-section .ds-heading-inner,.ds-back-home{ margin-bottom: var(--margin-54) }
 
 
-.ds-left-right-section .ds-hedding{font-size:3rem; position:relative; margin-bottom:0.875rem;font-family: 'Inter', serif;}
+.ds-left-right-section .ds-hedding{font-size:3rem; position:relative; margin-bottom:0.875rem;font-family: 'DM Serif Display', serif;}
 .ds-left-right-section {margin-bottom: var(--margin-120);}
 .ds-left-right-section  figure{ margin-bottom: var(--margin-60); }
 .ds-left-right-section .ds-tools{ font-weight: 700 }
