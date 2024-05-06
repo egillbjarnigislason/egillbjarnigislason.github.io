@@ -109,14 +109,31 @@
                             <div class="col-12 col-sm-12  col-md-12  col-lg-12  col-xl-12  col-xxl-12">
                               <h2 class="ds-proj-hedding">Geirneglt módel</h2>
                             </div>
-                              <p>Við val á gerinegldu módeli til þess að skapa í þessum hluta ákvað ég að samtvinna verkefnið við annan áfanga, Tölvustýrður vélbúnaður. Þar var  verkefnið að byggja róbot sem gat lyft og hellt úr vínglasi. Ég ákvað því að búa til arm vínróbotsins sem geirneglt módel. Fyrsta skref var að athuga forsendur armsins, þ.e. skoða hvað armurinn þyrfti að uppfylla m.t.t. styrks og virkni. Armurinn kæmi til með að þurfa að þola þónokkra spennu í kringum öxla og vera stöðugur. Því var ákveðið að hann skildi samanstanda af tveimur samsíða örmum sem væru fastir saman með tveimur þverplötum og hefði því fjórar geirnegldar festingar í heildina. Armurinn var teiknaður í <i>Fusion</i>, en áður en hafist var handa við að setja niður nauðsynlega stika (parametra) fyrir arminn. Mikilvægt er að teikna með stikum ef gera þarf hönunnarbreytingar seinna meir, en það var einnig krafa á verkefnið. Mikilvægir stikar eins og efnisþykkt og fjarlægð milli öxla voru settir niður í upphafi en sífellt fleiri nauðsynlegir stikar voru uppötvaðir eftir því sem teiknað var. Hér að neðan má sjá stika armsins. 
+                              <p>Við val á gerinegldu módeli til þess að skapa í þessum hluta ákvað ég að samtvinna verkefnið við annan áfanga, Tölvustýrður vélbúnaður. Þar var  verkefnið að byggja róbot sem gat lyft og hellt úr vínglasi. Ég ákvað því að búa til arm vínróbotsins sem geirneglt módel. Fyrsta skref var að athuga forsendur armsins, þ.e. skoða hvað armurinn þyrfti að uppfylla m.t.t. styrks og virkni. Armurinn kæmi til með að þurfa að þola þónokkra spennu í kringum öxla og vera stöðugur. Upphaflegur innblástur fyrir arminn kom frá virkni vindubrúa, þ.e. brúa sem hægt er að lyfta þannig að hleypa megi stórum bátum í gegn. Þetta var vegna þess að við stefndum að því að fyrsta tilraun með róbotinn var að framkvæma eins hreyfingu, með einungis arminn fastann á. 
+                            <div>
+                                <figure style="text-align: center;">
+                                    <img src="assets/images/bru.jpeg" alt="" style="width: 60%; height: auto;">
+                                </figure>
+                              </div>
+                                  
+                            <p>Skoðaðar voru ýmsar vindubrýr, og loks ákveðið að framkvæma sambærilega útfærslu í einfaldaðri mynd. Burðarþolsfræðin stýrði því að armurinn skildi samanstanda af tveimur samsíða plötum. Haldið var í góða breidd þannig að stöðugleiki fengist, en tvær þverplötur skyldu halda plötunum tveimur. Til þess þurfti fjórar geirnegldar festingar. Armurinn var teiknaður í <i>Fusion</i>.</p>
+                            
+                            <div class="col-12 col-sm-12  col-md-12  col-lg-12  col-xl-12  col-xxl-12">
+                              <h2 class="ds-proj-hedding">Stikar módelsins</h2>
+                            </div>
+                                <p>Áður en hafist var handa við teikningu voru nauðsynlegir stikar (parametrar) settir niður fyrir arminn. Mikilvægt er að teikna með stikum ef gera þarf hönunnarbreytingar seinna meir, en það var einnig krafa á verkefnið. Hér að neðan má sjá stika armsins. 
                               </p>
                             <div>
                                 <figure style="text-align: center;">
                                     <img src="assets/images/Stikar_armur.png" alt="" style="width: 70%; height: auto;">
                                 </figure>
                               </div>
+                                <p>Stikarnir sem settir voru fram í <i>Fusion</i> sneru sumir hverjir að utanaðkomandi íhlutum. Til að mynda sneru þeir að efnisþykkt og málum öxuls eða legu. Þessir stikar voru settir fram í upphafi og breyttust ekki í gegnum ferlið. Aðrir stikar stýrðu í meira mæli með beinum hætti geometríu armsins, svo sem lengd hans (<i>lengd_arms</i>) og hæðar (<i>hæð_arms</i>). Aðrir stikar voru sumir hverjir gerðir innbyrðis háðir þessum stýristikum. Til dæmis var stikinn <i>raufarþykkt </i> settur sem 25% af <i>hæð_arms</i> þannig að ef hæð armsins væri breytt myndi þykkt raufarinnar ekki verða óeðlileg og hlutföllin haldast. Sömuleiðis má nefna lengd kubbanna sem settir voru í festingar armsins sem háðan stika. Stikinn <i>nab_h</i> var þannig settur fram sem <i>raufarþykkt </i> + 10mm, þannig að tryggt væri að hann væri ætíð stærri en raufin.</p>
                               
+                              
+                            <div class="col-12 col-sm-12  col-md-12  col-lg-12  col-xl-12  col-xxl-12">
+                              <h2 class="ds-proj-hedding">Geirnegldar festingar</h2>
+                            </div>
                               <p>Teiknuð var rauf í miðju armanna sem stinga mátti þverbitunum inn í og renna út í enda. Til þess að skorða þá í endunum voru litlir kubbar teiknaðir sem tryggðu að þeir héldu sér á sínum stað. Bætt var við minniháttar eiginleikum, svo sem festingum fyrir mótor, gat sem þræða mátti víra um og festingar fyrir gorma. </p>
                               
                             <div>
@@ -124,7 +141,9 @@
                                     <img src="assets/images/armur_fusion.png" alt="" style="width: 80%; height: auto;">
                                 </figure>
                               </div>
-                              
+                            <div class="col-12 col-sm-12  col-md-12  col-lg-12  col-xl-12  col-xxl-12">
+                              <h2 class="ds-proj-hedding">Geislaskurður</h2>
+                            </div>
                               <p>Þegar búið var að teikna alla nauðsynlega hluta var þeim raðað þannig að spara mætti efnið sem skorið var út með. Skurðarferillinn var búinn til í <i>Fusion</i> í <i>Manufacture</i> glugganum. Þar var nýtt <i>SETUP</i> skapað fyrir módelið og <i>2D profiles</i> í <i>CUTTING</i> næst opnað. Þar inni þurfti að skilgreina tólið sem nota átti. Nauðsynlegar upplýsingar um geislaskerann, svo sem <i>kerf</i>-ið sem fundið var hér áður, voru settar inn. Þá voru hlutirnir sem búið var að teikna valdir. Þegar <i>Fusion</i> hafði loks reiknað skurðarferilinn var DXF skrá vistuð og komið að því að hefja skurð. </p>
                             <div style="display: flex; justify-content: center;">
                                 <figure style="text-align: center;">
@@ -155,6 +174,12 @@
                                 </figure>
                               </div>
                               <p>Hlekkur á .stl skrá inni á Thingiverse: <a href="https://www.thingiverse.com/thing:6533685">Pressfit armur fyrir vínróbot</a>.</p>
+                            <div class="col-12 col-sm-12  col-md-12  col-lg-12  col-xl-12  col-xxl-12">
+                              <h2 class="ds-proj-hedding">Hvað lærði ég af ferlinu?</h2>
+                          </div>
+                          <div class="col-12 col-sm-12  col-md-12  col-lg-12  col-xl-12  col-xxl-12">
+                            <p>Fyrir verkefnið hafði ég töluverða reyslu af því að teikna í þrívídd. Ég hafði hinsvegar ekki enn tileinkað mér að fullu teikningu byggða á stikum og voru þetta því straumhvörf í notkun minni á teikniforritum. Þar að auki höfðu teikningarnar mínar ekki áður verið raungerðar með þessum hætti. Áhugavert var að kynnast <i>manufacture</i> virkni <i>Fusion</i> og öðrum atriðum sem snúa að geislaskurði, svo sem hverning skeranum eru gefnar réttar skrár og mikilvægi kerf, sérstaklega hvað varðar það að tryggja að geirnegldar festingar virki. </p>
+                          </div>
                               
                             <div class="col-12 col-sm-12  col-md-12  col-lg-12  col-xl-12  col-xxl-12">
                               <h2 class="ds-proj-hedding">Tímatafla</h2>
@@ -173,11 +198,11 @@
                               <tbody>
                                 <tr>
                                   <td><p>Hugmyndaleit</p></td>
-                                  <td><p>2</p></td>
+                                  <td><p>3</p></td>
                                 </tr>
                                 <tr>
                                   <td><p>Teikning</p></td>
-                                  <td><p>4</p></td>
+                                  <td><p>6</p></td>
                                 </tr>
                                 <tr>
                                   <td><p>Verkleg framkvæmd</p></td>
@@ -185,11 +210,11 @@
                                 </tr>
                                 <tr>
                                   <td><p>Skýrsluskrif</p></td>
-                                  <td><p>2</p></td>
+                                  <td><p>4</p></td>
                                 </tr>
                                 <tr>
                                   <td><p>Uppsetning vefsíðu</p></td>
-                                  <td><p>1</p></td>
+                                  <td><p>3</p></td>
                                 </tr>
                                 <!-- Add more rows as needed -->
                               </tbody>
